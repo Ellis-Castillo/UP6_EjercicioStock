@@ -1,7 +1,7 @@
 package com.otroEjercicio;
 import java.util.Scanner;
 
-public class otroEjercicio {
+public class ejercicioStockAlmacen {
     public static void main(String[] args){
         int stock[][];
         float precios[];
@@ -82,7 +82,7 @@ public class otroEjercicio {
             for (int j = 0; j < stock[i].length; j++) {
                 if(stock[i][j] < 1){
                     System.out.println("- El almacén " + (i+1) + " no tiene " + nombrePiezas[j] + "s.");
-                };
+                }
             }
         }
     }
